@@ -1,0 +1,181 @@
+html,
+body {
+    height: 100%;
+    min-width: 400px;
+    margin: 0;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6
+}
+
+body {
+    background: #202124;
+}
+
+.google-search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.google-search-item {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    align-self: flex-start;
+}
+
+.right ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.left ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    background: #17181a;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.google-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.google-logo {
+    min-width: 10%;
+    text-align: center;
+    margin: 16px;
+}
+
+.google-search-form {
+    min-width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.google-search-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 48px;
+    border: 1px solid
+}
+
+.input-container:hover {
+    background-color: #303134;
+}
+
+.icon {
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+.google-search-input {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+    outline: none;
+}
+
+.google-search-buttons button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+.google-search-buttons button:hover {
+    border: 1px solid white;
+    color: #f7f7f7;
+}
+
+.header button {
+    background-color: #125ab8;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 24px 8px 24px;
+}
+
+.header button:hover {
+    background-color: #024daf;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left li {
+    float: left;
+}
+
+.navbar .right ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a {
+    color: rgb(201, 199, 199);
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+li {
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
